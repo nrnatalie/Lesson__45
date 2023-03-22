@@ -7,5 +7,22 @@ package Homework45;
      //   а если авторы совпадают - по названиям (и там, и там - по алфавиту, "в словарном
     //   порядке").
 public class Book {
+    private  String author;
+    private String name;
+    private  int numbers;
 
+    public Book(String author, String name, int numbers){
+        this.author = author;
+        this.name = name;
+        this.numbers = numbers;
+    }
+    public String getName(){
+        return name;
+    }
+    public String getAuthor(){
+        return author;
+    }
+    public int getNumbers(){
+        return numbers;
+    }
 }
